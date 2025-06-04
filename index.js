@@ -14,7 +14,7 @@ app.use(loggerWithLevel('debug'));
 
 // Test Route
 app.get('/', (req, res) => {
-  res.send('Hello, Request Logger!');
+  res.send('Hello,i am a middleware');
 });
 
 // Start the server
